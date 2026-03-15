@@ -19,8 +19,6 @@ Seetha-Hotel-Web-/
 │   ├── room-1.jpg
 │   └── background.jpg
 
-```
-
 ## Features
 
 - Responsive navigation menu
@@ -32,3 +30,12 @@ Seetha-Hotel-Web-/
 
 - HTML
 - CSS
+```
+
+## How to Run
+
+Since this is a static website built with HTML and CSS, no complex installation or local server is required.
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Senulr1/Seetha-Hotel-Web-.git](https://github.com/Senulr1/Seetha-Hotel-Web-.git)
