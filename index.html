@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="with=device-width, inital-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Seetha Hotel and Resort</title>
 <link rel="stylesheet" href="Style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap"
-rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -16,7 +15,7 @@ rel="stylesheet">
     <div class="nav-links" id="nav-links">
         <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
-               <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="Pages/about.html">About Us</a></li>
             <li><a href="Pages/History.html">History</a></li>
             <li><a href="Pages/Rooms.html">Rooms Details</a></li>
@@ -24,18 +23,15 @@ rel="stylesheet">
         </ul>
     </div>
     <i class="fa fa-bars" onclick="showMenu()"></i>
-    </i>
 </nav>
 
 <div class="text-box">
     <h1>Colombo No.1 Luxury Hotel <br> SEETHA AND RESORT</h1>
     <p>Escape the ordinary! Enjoy modern comfort, scenic beauty, and your perfect family holiday at Seetha Hotel.</p>
-    <a href="about.html" class="hero-btn">Visit Us To Know More</a>
+    <a href="Pages/about.html" class="hero-btn">Visit Us To Know More</a>
 </div>
 
 </section>
-<!------------Rooms Details---------->
-
 <section class="Rooms">
 <h1 class="scroll-animate">Rooms We Offer</h1>
 <p class="scroll-animate">Experience comfort, style, and tranquility in every room.</p>
@@ -59,7 +55,7 @@ rel="stylesheet">
 </div>
 </section>
 
-<section class="rooms2"></section>
+<section class="rooms2">
 <div class="row">
 <div class="roooom scroll-fade-left">
 <img src="img/eoom 2.png">
@@ -77,8 +73,6 @@ rel="stylesheet">
   </div>
 </div>
 </section>
-
-<!----------------other------------>
 
 <section class="other">
     <h1 class="scroll-animate">Our Other Services</h1>
@@ -108,7 +102,6 @@ rel="stylesheet">
 </div>
 </section>
 
-<!-----------Benifits----------->
 <section class="benifits">
     <h1 class="scroll-animate">Our Benifits</h1>
     <p class="scroll-animate">Discover the exclusive benefits that make every stay with us more relaxing, enjoyable, and memorable.</p>
@@ -132,8 +125,6 @@ rel="stylesheet">
   </div>
 </div>
 </section>
-
-<!-----------Testimonials----------->
 
 <section class="testimonials">
     <h1 class="scroll-animate">What Our Customers says</h1>
@@ -169,14 +160,10 @@ rel="stylesheet">
 </section>
 
 
-<!-----------Call to Action----------->
-
 <section class="cta scroll-scale">
     <h1>Book your stay today and experience true comfort and luxury.</h1>
-    <a href="Contact.html" class="hero-btn">CONTACT US</a>
+    <a href="Pages/Contact.html" class="hero-btn">CONTACT US</a>
 </section>
-
-<!-----------Footer----------->
 
 <section class="footer">
     <h4>About Us</h4>
@@ -195,34 +182,16 @@ Experience tradition. Stay in comfort. Welcome to Seetha Hotel.</p>
     <p>Made With <i class="fa fa-heart-o"></i> by Group J</p>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-----------JavaScript for Roggle Menu----------->
 <script>
-
-var navLinks = document.getElementById("navLinks");
+var navLinks = document.getElementById("nav-links");
 function showMenu(){
     navLinks.style.right = "0";
 }
 function hideMenu(){
     navLinks.style.right = "-200px";
 }
-
 </script>
 
-<!-----------Scroll Animation JavaScript----------->
 <script>
 const animateOnScroll = () => {
     const elements = document.querySelectorAll('.scroll-animate, .scroll-fade-left, .scroll-fade-right, .scroll-scale');
