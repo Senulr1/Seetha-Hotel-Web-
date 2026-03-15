@@ -52,9 +52,11 @@ Since this is a static website built with HTML and CSS, no complex installation 
 3. **Run the website:**
    Simply double-click on the `index.html` file to open it in your default web browser.
 
-**🌐 Live Preview:**
-   ```bash
-  (https://github.com/Senulr1/Seetha-Hotel-Web--/index.html)
-   ```
+### 🌐 Live Preview
+
+You can access the live version of the project here:
+
+```text
+[https://senulr1.github.io/Seetha-Hotel-Web-/](https://senulr1.github.io/Seetha-Hotel-Web-/)
 
 > **Pro Tip for Developers:** If you are using **Visual Studio Code**, you can install the **Live Server** extension. Just right-click on the `index.html` file and select "Open with Live Server" to view the website with real-time updates!
