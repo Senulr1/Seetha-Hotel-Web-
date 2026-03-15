@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, inital-scale=1.0">
+<title>Seetha Hotel and Resort</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="img/logo.png"></a>
+    <div class="nav-links" id="nav-links">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+               <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="History.html">History</a></li>
+            <li><a href="Rooms.html">Rooms Details</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </i>
+</nav>
+<h1>About Us</h1>
+</section>
+
+<!-----------about us----------->
+
+<section class="about-us">
+    <div class="row">
+  <div class="about-col scroll-fade-left">
+    <h1>We are the Colombo No.1 Luxury Hotel In Sri Lanaka</h1>
+    <p>Welcome to Hotel Seetha, where timeless hospitality meets modern comfort. Nestled in a calm and scenic setting, our hotel is a sanctuary for travelers who seek relaxation, quality service, and unforgettable experiences. From the moment you arrive, you'll feel the warmth of our hospitality a blend of genuine care, personal attention, and dedication to your comfort.
+At Hotel Seetha, we go beyond providing a place to stay we create an experience that touches the heart. Each guest is treated like family, and every stay is designed to leave lasting memories. Our beautifully appointed rooms are thoughtfully designed to provide tranquility, elegance, and convenience, featuring air-conditioning, comfortable bedding, complimentary Wi-Fi, and all modern amenities to make your stay as pleasant as possible.
+We understand that every traveler is unique. Whether you're here for a peaceful getaway, a business trip, or a family vacation, we offer spaces and services tailored to your needs. Enjoy delicious cuisine prepared with care, unwind in a serene atmosphere, and let our friendly team assist you with anything you may need during your stay.
+Our story began with a simple dream to create a place where people could feel at home, no matter how far they travel. Over the years, Hotel Seetha has grown to become a trusted name in hospitality, known for our warmth, cleanliness, and commitment to excellence. We believe that hospitality is not just about accommodation it's about building connections, sharing smiles, and ensuring that every guest leaves with a happy heart.
+Our mission is to offer high-quality, affordable hospitality that combines comfort, elegance, and personal service. Our vision is to become one of the most loved and trusted hotels in the region a place where guests return again and again, not just for the facilities, but for the feeling of being genuinely cared for.
+At Hotel Seetha, we take pride in every little detail from the freshness of your morning coffee to the comfort of your pillow. Our team works tirelessly to maintain the highest standards of cleanliness, safety, and service, ensuring that every moment you spend with us is peaceful and worry-free.
+So whether you're visiting for a short stay or a long retreat, come and discover why our guests call Hotel Seetha their "home away from home."
+✨ Experience comfort. Embrace serenity. Enjoy the true spirit of hospitality only at Hotel Seetha.</p>
+<a href="History.html" class="hero-btn orange-btn">EXPLORE NOW</a>
+  </div>  
+  <div class="about-col scroll-fade-right">
+    <img src="img/about us.png">
+  </div>    
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<!-----------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Established in 1902, Seetha Hotel is one of Colombo's most historic and elegant hotels. For over a century, we have welcomed guests from around the world with warm hospitality, comfort, and timeless charm.
+
+Located in the heart of the city, our hotel blends classic architecture with modern comforts. Whether you're visiting for business or leisure, Seetha Hotel offers a peaceful and stylish stay in the middle of Colombo's vibrant atmosphere.
+
+With beautifully designed rooms, delicious dining, and friendly service, we aim to make every guest feel at home.
+
+Experience tradition. Stay in comfort. Welcome to Seetha Hotel.</p>
+<div class="icons">
+     <i class="fa fa-facebook"></i>
+       <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by Group J</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------JavaScript for Roggle Menu----------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+<!-----------Scroll Animation JavaScript----------->
+<script>
+const animateOnScroll = () => {
+    const elements = document.querySelectorAll('.scroll-animate, .scroll-fade-left, .scroll-fade-right, .scroll-scale');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    });
+    
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+};
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', animateOnScroll);
+} else {
+    animateOnScroll();
+}
+</script>
+
+</body>
+</html>
