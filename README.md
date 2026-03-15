@@ -3,6 +3,7 @@
 This is my final diploma project where I created a hotel website using **HTML** and **CSS**. The website showcases the hotel's rooms, history, and contact information.
 
 ## Project Structure
+```text
 Seetha-Hotel-Web-/
 │
 ├── index.html          # Main homepage
@@ -12,6 +13,13 @@ Seetha-Hotel-Web-/
 │
 ├── css/
 │   └── style.css       # Main stylesheet for the website
+│
+├── images/             # Folder for image gallery and logos
+│   ├── logo.png
+│   ├── room-1.jpg
+│   └── background.jpg
+
+```
 
 ## Features
 
