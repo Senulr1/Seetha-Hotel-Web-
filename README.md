@@ -3,6 +3,7 @@
 This is my final diploma project where I created a hotel website using **HTML** and **CSS**. The website showcases the hotel's rooms, history, and contact information.
 
 ## Project Structure
+
 ```text
 Seetha-Hotel-Web-/
 │
@@ -18,6 +19,10 @@ Seetha-Hotel-Web-/
 │   ├── logo.png
 │   ├── room-1.jpg
 │   └── background.jpg
+│
+└── js/                 # (Optional) For navigation menu scripts
+    └── main.js
+```
 
 ## Features
 
@@ -30,7 +35,6 @@ Seetha-Hotel-Web-/
 
 - HTML
 - CSS
-```
 
 ## How to Run
 
@@ -39,3 +43,13 @@ Since this is a static website built with HTML and CSS, no complex installation 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Senulr1/Seetha-Hotel-Web-.git](https://github.com/Senulr1/Seetha-Hotel-Web-.git)
+   ```
+   *(Alternatively, you can download the project as a ZIP file and extract it).*
+
+2. **Open the project folder:**
+   Navigate to the folder where you cloned or extracted the project files.
+
+3. **Run the website:**
+   Simply double-click on the `index.html` file to open it in your default web browser.
+
+> **Pro Tip for Developers:** If you are using **Visual Studio Code**, you can install the **Live Server** extension. Just right-click on the `index.html` file and select "Open with Live Server" to view the website with real-time updates!
